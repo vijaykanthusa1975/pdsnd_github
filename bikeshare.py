@@ -179,7 +179,7 @@ def raw_data(df):
     #Counter for row slicing 
     cnt=0
     print("Length of data frame: ", len(df.index))
-    df.to_csv("file_name1", sep='\t')
+    #df.to_csv("file_name1", sep='\t')
 
     while True and df.empty==False:
         usr_input = input('\nWould you like to iteratively see 5 lines of raw data? Enter "Y" to Continue or "N" to view Statistics Computations \n')
